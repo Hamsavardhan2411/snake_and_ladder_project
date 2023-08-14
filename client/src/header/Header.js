@@ -1,20 +1,20 @@
 import React from "react";
-import cfi from "../images/cfi.png";
-import cfilogo from "../images/CFI Logo (with text) - Black.png";
+import iitm from "../images/IITMLogo.png";
+import hvlogo from "../images/logo.png";
 const Header = () => {
   return (
     <div style={{ position: "absolute" }}>
       <img
-        src={cfi}
+        src={iitm}
         alt="cfi logo"
-        width="100px"
-        style={{ position: "fixed", top: "0px", left: "0px" }}
+        width="90px"
+        style={{ position: "fixed", top: "10px", left: "10px" }}
       />
       <img
-        src={cfilogo}
+        src={hvlogo}
         alt="cfi logo"
-        width="100px"
-        style={{ position: "fixed", top: "5px", right: "15px" }}
+        width="180px"
+        style={{ position: "fixed", top: "10px", right: "10px" }}
       />
     </div>
   );

@@ -17,35 +17,20 @@ const Footer = () => {
           <a
             className="mx-1"
             style={{ textDecoration: "none", color: "inherit" }}
-            href="mailto:v.tharun2589@gmail.com"
+            href="mailto:dhamsavardhan@gmail.com"
           >
-            Tharun.V
+            Hamsavardhan D
           </a>
           ,
-          <a
-            className="mx-1"
-            style={{ textDecoration: "none", color: "inherit" }}
-            href="mailto:dheeraj.s.kumar14@gmail.com"
-          >
-            Dheeraj Kumar
-          </a>
-          and
-          <a
-            className="mx-1"
-            style={{ textDecoration: "none", color: "inherit" }}
-            href="mailto:gudipudirasagnya@gmail.com"
-          >
-            Rasagnya
-          </a>
           of
           <a
             className="mx-1"
             style={{ textDecoration: "none", color: "inherit" }}
             href="mailto:webopsandblockchainclub@gmail.com"
           >
-            WebOps And Blockchain Club
+            Indian Institute of Technology Madras
           </a>
-          , CFI
+          , Chennai
         </h1>
       </div>
     </div>

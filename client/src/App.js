@@ -11,7 +11,7 @@ import {
   NonExtraMove,
 } from "./shared/data";
 import "bootstrap/dist/css/bootstrap.min.css";
-const socket = io("https://safe-river-93823.herokuapp.com/");
+const socket = io("http://localhost:9000/");
 function App() {
   const [joinedRoom, setJoinedRoom] = useState(false);
   const [roomId, setRoomId] = useState("");
